@@ -16,6 +16,22 @@
 		B20ED4BE20E4B5560036F933 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B20ED4BD20E4B5560036F933 /* main.m */; };
 		B20ED4C820E4B5570036F933 /* MusicPlayerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B20ED4C720E4B5570036F933 /* MusicPlayerTests.m */; };
 		B20ED4D320E4B5570036F933 /* MusicPlayerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B20ED4D220E4B5570036F933 /* MusicPlayerUITests.m */; };
+		B20ED4E220E4B5FA0036F933 /* MusicTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B20ED4E120E4B5FA0036F933 /* MusicTableViewController.m */; };
+		B20ED4E620E4B6910036F933 /* MusicTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B20ED4E420E4B6910036F933 /* MusicTableViewCell.m */; };
+		B20ED4E720E4B6910036F933 /* MusicTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B20ED4E520E4B6910036F933 /* MusicTableViewCell.xib */; };
+		B20ED4EA20E4B8F50036F933 /* PlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B20ED4E920E4B8F50036F933 /* PlayerViewController.m */; };
+		B20ED4F120E4D4DF0036F933 /* UIButton+UIButton_Play.m in Sources */ = {isa = PBXBuildFile; fileRef = B20ED4F020E4D4DF0036F933 /* UIButton+UIButton_Play.m */; };
+		B20ED4F620E5E1A10036F933 /* zhuqiu.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B20ED4F220E5E1A00036F933 /* zhuqiu.mp3 */; };
+		B20ED4F720E5E1A10036F933 /* tian.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B20ED4F320E5E1A00036F933 /* tian.mp3 */; };
+		B20ED4F820E5E1A10036F933 /* ai.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B20ED4F420E5E1A00036F933 /* ai.mp3 */; };
+		B20ED4F920E5E1A10036F933 /* yun.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B20ED4F520E5E1A10036F933 /* yun.mp3 */; };
+		B20ED4FB20E609960036F933 /* That+Girl+-+Olly+Murs.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B20ED4FA20E609960036F933 /* That+Girl+-+Olly+Murs.mp3 */; };
+		B20ED4FF20E60FEC0036F933 /* MusicWordsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B20ED4FD20E60FEC0036F933 /* MusicWordsTableViewCell.m */; };
+		B20ED50020E60FEC0036F933 /* MusicWordsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B20ED4FE20E60FEC0036F933 /* MusicWordsTableViewCell.xib */; };
+		B20ED50220E612C70036F933 /* qing.txt in Resources */ = {isa = PBXBuildFile; fileRef = B20ED50120E612C70036F933 /* qing.txt */; };
+		B20ED50420E61B790036F933 /* qing.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B20ED50320E61B790036F933 /* qing.mp3 */; };
+		B20ED50620E622FF0036F933 /* quan.txt in Resources */ = {isa = PBXBuildFile; fileRef = B20ED50520E622FF0036F933 /* quan.txt */; };
+		B20ED50820E626020036F933 /* quan.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B20ED50720E626020036F933 /* quan.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +69,27 @@
 		B20ED4CE20E4B5570036F933 /* MusicPlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MusicPlayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B20ED4D220E4B5570036F933 /* MusicPlayerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MusicPlayerUITests.m; sourceTree = "<group>"; };
 		B20ED4D420E4B5570036F933 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B20ED4E020E4B5FA0036F933 /* MusicTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MusicTableViewController.h; sourceTree = "<group>"; };
+		B20ED4E120E4B5FA0036F933 /* MusicTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MusicTableViewController.m; sourceTree = "<group>"; };
+		B20ED4E320E4B6910036F933 /* MusicTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MusicTableViewCell.h; sourceTree = "<group>"; };
+		B20ED4E420E4B6910036F933 /* MusicTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MusicTableViewCell.m; sourceTree = "<group>"; };
+		B20ED4E520E4B6910036F933 /* MusicTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MusicTableViewCell.xib; sourceTree = "<group>"; };
+		B20ED4E820E4B8F50036F933 /* PlayerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlayerViewController.h; sourceTree = "<group>"; };
+		B20ED4E920E4B8F50036F933 /* PlayerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlayerViewController.m; sourceTree = "<group>"; };
+		B20ED4EF20E4D4DF0036F933 /* UIButton+UIButton_Play.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+UIButton_Play.h"; sourceTree = "<group>"; };
+		B20ED4F020E4D4DF0036F933 /* UIButton+UIButton_Play.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+UIButton_Play.m"; sourceTree = "<group>"; };
+		B20ED4F220E5E1A00036F933 /* zhuqiu.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = zhuqiu.mp3; sourceTree = "<group>"; };
+		B20ED4F320E5E1A00036F933 /* tian.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = tian.mp3; sourceTree = "<group>"; };
+		B20ED4F420E5E1A00036F933 /* ai.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ai.mp3; sourceTree = "<group>"; };
+		B20ED4F520E5E1A10036F933 /* yun.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = yun.mp3; sourceTree = "<group>"; };
+		B20ED4FA20E609960036F933 /* That+Girl+-+Olly+Murs.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "That+Girl+-+Olly+Murs.mp3"; sourceTree = "<group>"; };
+		B20ED4FC20E60FEC0036F933 /* MusicWordsTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MusicWordsTableViewCell.h; sourceTree = "<group>"; };
+		B20ED4FD20E60FEC0036F933 /* MusicWordsTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MusicWordsTableViewCell.m; sourceTree = "<group>"; };
+		B20ED4FE20E60FEC0036F933 /* MusicWordsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MusicWordsTableViewCell.xib; sourceTree = "<group>"; };
+		B20ED50120E612C70036F933 /* qing.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = qing.txt; sourceTree = "<group>"; };
+		B20ED50320E61B790036F933 /* qing.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = qing.mp3; sourceTree = "<group>"; };
+		B20ED50520E622FF0036F933 /* quan.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = quan.txt; sourceTree = "<group>"; };
+		B20ED50720E626020036F933 /* quan.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = quan.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +120,15 @@
 		B20ED49F20E4B5550036F933 = {
 			isa = PBXGroup;
 			children = (
+				B20ED4F420E5E1A00036F933 /* ai.mp3 */,
+				B20ED4FA20E609960036F933 /* That+Girl+-+Olly+Murs.mp3 */,
+				B20ED50120E612C70036F933 /* qing.txt */,
+				B20ED4F320E5E1A00036F933 /* tian.mp3 */,
+				B20ED4F520E5E1A10036F933 /* yun.mp3 */,
+				B20ED4F220E5E1A00036F933 /* zhuqiu.mp3 */,
+				B20ED50320E61B790036F933 /* qing.mp3 */,
+				B20ED50720E626020036F933 /* quan.mp3 */,
+				B20ED50520E622FF0036F933 /* quan.txt */,
 				B20ED4AA20E4B5550036F933 /* MusicPlayer */,
 				B20ED4C620E4B5570036F933 /* MusicPlayerTests */,
 				B20ED4D120E4B5570036F933 /* MusicPlayerUITests */,
@@ -107,6 +153,18 @@
 				B20ED4AC20E4B5550036F933 /* AppDelegate.m */,
 				B20ED4AE20E4B5550036F933 /* ViewController.h */,
 				B20ED4AF20E4B5550036F933 /* ViewController.m */,
+				B20ED4E020E4B5FA0036F933 /* MusicTableViewController.h */,
+				B20ED4E120E4B5FA0036F933 /* MusicTableViewController.m */,
+				B20ED4E320E4B6910036F933 /* MusicTableViewCell.h */,
+				B20ED4E420E4B6910036F933 /* MusicTableViewCell.m */,
+				B20ED4E520E4B6910036F933 /* MusicTableViewCell.xib */,
+				B20ED4FC20E60FEC0036F933 /* MusicWordsTableViewCell.h */,
+				B20ED4FD20E60FEC0036F933 /* MusicWordsTableViewCell.m */,
+				B20ED4FE20E60FEC0036F933 /* MusicWordsTableViewCell.xib */,
+				B20ED4E820E4B8F50036F933 /* PlayerViewController.h */,
+				B20ED4E920E4B8F50036F933 /* PlayerViewController.m */,
+				B20ED4EF20E4D4DF0036F933 /* UIButton+UIButton_Play.h */,
+				B20ED4F020E4D4DF0036F933 /* UIButton+UIButton_Play.m */,
 				B20ED4B120E4B5550036F933 /* Main.storyboard */,
 				B20ED4B720E4B5560036F933 /* Assets.xcassets */,
 				B20ED4B920E4B5560036F933 /* LaunchScreen.storyboard */,
@@ -202,6 +260,11 @@
 				TargetAttributes = {
 					B20ED4A720E4B5550036F933 = {
 						CreatedOnToolsVersion = 9.4;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 					B20ED4C220E4B5570036F933 = {
 						CreatedOnToolsVersion = 9.4;
@@ -238,9 +301,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B20ED50620E622FF0036F933 /* quan.txt in Resources */,
+				B20ED50820E626020036F933 /* quan.mp3 in Resources */,
+				B20ED50220E612C70036F933 /* qing.txt in Resources */,
 				B20ED4BB20E4B5560036F933 /* LaunchScreen.storyboard in Resources */,
+				B20ED4F920E5E1A10036F933 /* yun.mp3 in Resources */,
+				B20ED50420E61B790036F933 /* qing.mp3 in Resources */,
 				B20ED4B820E4B5560036F933 /* Assets.xcassets in Resources */,
+				B20ED50020E60FEC0036F933 /* MusicWordsTableViewCell.xib in Resources */,
+				B20ED4F720E5E1A10036F933 /* tian.mp3 in Resources */,
+				B20ED4F820E5E1A10036F933 /* ai.mp3 in Resources */,
+				B20ED4F620E5E1A10036F933 /* zhuqiu.mp3 in Resources */,
 				B20ED4B320E4B5550036F933 /* Main.storyboard in Resources */,
+				B20ED4FB20E609960036F933 /* That+Girl+-+Olly+Murs.mp3 in Resources */,
+				B20ED4E720E4B6910036F933 /* MusicTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,10 +339,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B20ED4FF20E60FEC0036F933 /* MusicWordsTableViewCell.m in Sources */,
+				B20ED4EA20E4B8F50036F933 /* PlayerViewController.m in Sources */,
+				B20ED4E220E4B5FA0036F933 /* MusicTableViewController.m in Sources */,
+				B20ED4E620E4B6910036F933 /* MusicTableViewCell.m in Sources */,
 				B20ED4B020E4B5550036F933 /* ViewController.m in Sources */,
 				B20ED4B620E4B5550036F933 /* MusicPlayer.xcdatamodeld in Sources */,
 				B20ED4BE20E4B5560036F933 /* main.m in Sources */,
 				B20ED4AD20E4B5550036F933 /* AppDelegate.m in Sources */,
+				B20ED4F120E4D4DF0036F933 /* UIButton+UIButton_Play.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -438,7 +517,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9375EX9ZDW;
 				INFOPLIST_FILE = MusicPlayer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -454,7 +535,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9375EX9ZDW;
 				INFOPLIST_FILE = MusicPlayer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

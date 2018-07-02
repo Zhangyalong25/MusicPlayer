@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface MusicWordsTableViewCell : UITableViewCell
+@property (weak, nonatomic) IBOutlet UILabel *words;
 
 @end
